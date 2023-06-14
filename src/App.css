@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(29, 28, 28);
+}
+
+.app {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  border-color: #ff56f8;
+  
+}
+
+.app .mainHeading h1 {
+  text-align: center;
+}
+
+.app h1,
+h2 {
+  color: white;
+}
+
+.app .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app .input {
+  margin-top: 0.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.app .input input {
+  width: 100%;
+  height: 1.6em;
+  border-color: transparent;
+  outline-color: transparent;
+  
+}
+
+.app i {
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 900;
+  color: grey;
+  margin-right: 5px;
+}
+.app .todos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.app .todos .todo {
+  margin-top: 0.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+.app .todos .todo .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app .todos .todo .left p {
+  margin-left: 3px;
+  font-size: medium;
+  font-weight: 700;
+  font-style: normal;
+  color: grey;
+}
+
+nav{
+  margin-top: 0;
+  height: 80px;
+  border-bottom:2px dashed #ff56f8;
+
+}
+.navComponent{
+  padding-top: 20px;
+  font-size: larger;
+  color: #ffff;
+  display: flex;
+  justify-content: space-around;
+
+}
+.navComponent button{
+  background-color: #381437;
+  color:white;
+  width: max-content;
+  font-size: larger;
+  border-color: #ff56f8;
+  border-radius: 10px;
+
+}
+.NavItem{
+  margin-left: -80px;
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+.NavItem h3{
+ width: max-content;
+ height:max-content;
+ background-color: transparent;
+}
+.contentMaim{
+ 
+  border: 1px solid #ff56f8;
+  border-radius: 20px;
+  padding: 10px;
+}
+.reset{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+.reset button{
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ff56f8;
+  font-size: larger;
+  border-radius: 5px;
+}
+.effect{
+  color: #ff56f8;
+}
+.todo{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+footer a{
+  color: #ff56f8;
+}
+footer h3{
+  color: white;
+}
